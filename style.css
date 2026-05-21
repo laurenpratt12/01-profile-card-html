@@ -1,0 +1,87 @@
+/* Set the page background and basic text styling */
+body {
+  /* background color for the whole page */
+  background-color: lightblue;
+  /* remove default browser margin around the page */
+  margin: 0;
+  /* choose a simple readable sans-serif font stack */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Profile card container styles */
+.profile-card {
+  /* limit the card width so it does not stretch too wide */
+  max-width: 28rem;
+  /* center the card horizontally and add space above/below */
+  margin: 3rem auto;
+  /* add space inside the card around its content */
+  padding: 2rem;
+  /* add a light gray border around the card */
+  border: 1px solid #bbb;
+  /* round the corners slightly for a softer look */
+  border-radius: 1rem;
+  /* card background should stay white */
+  background-color: #ffffff;
+  /* center the text inside this card */
+  text-align: center;
+}
+
+/* Profile image styling */
+.profile-image {
+  /* constrain the image width to fit inside the card */
+  width: 8rem;
+  /* keep the image aspect ratio */
+  height: auto;
+  /* make the image round */
+  border-radius: 50%;
+  /* add space below the image */
+  margin-bottom: 1rem;
+}
+
+/* Main heading inside the profile card */
+.profile-card h1 {
+  /* make the heading larger than normal text */
+  font-size: 3rem;
+  /* remove top margin, keep a little space below */
+  margin: 0 0 0.5rem;
+  /* use a strong dark blue color for the heading */
+  color: darkblue;
+}
+
+/* Subheading inside the profile card */
+.profile-card h2 {
+  /* use a softer gray color for secondary heading text */
+  color: slategray;
+}
+
+/* Role label text styling */
+.profile-card .role {
+  /* make the role text larger than normal paragraph text */
+  font-size: 1.5rem;
+  /* keep no top margin and add space below */
+  margin: 0 0 1rem;
+}
+
+/* Remove default bullet styling and spacing for the list */
+.profile-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem auto 0;
+}
+
+/* Add small spacing between list items */
+.profile-card li {
+  margin: 0.4rem 0;
+}
+
+/* Paragraph text styling inside the card */
+.profile-card p {
+  /* set paragraph text slightly larger for readability */
+  font-size: 1.1rem;
+  /* space the lines to make paragraphs easier to read */
+  line-height: 1.6;
+  /* center the paragraph block and keep it narrow */
+  margin: 0 auto;
+  /* limit paragraph width so lines do not get too long */
+  max-width: 30rem;
+}
